@@ -10,6 +10,10 @@
     "hello-world": {
       "method": "GET",
       "file": "helloWorld.js"
+    },
+    "reqres": {
+      "method": "GET",
+      "file": "reqres.js"
     }
   }
 }

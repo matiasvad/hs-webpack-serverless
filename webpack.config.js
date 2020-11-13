@@ -7,7 +7,8 @@ const fxConfig = ({ portal, autoupload } = {}) => {
     target: "node",
     entry: {
       fetchLP: ["./src/app.functions/fetchLP.js"],
-      helloWorld: ["./src/app.functions/helloWorld.js"]
+      helloWorld: ["./src/app.functions/helloWorld.js"],
+      reqres: ["./src/app.functions/reqres.js"]
     },
     output: {
       path: path.resolve(__dirname, "dist"),
