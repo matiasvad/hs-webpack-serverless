@@ -1,6 +1,6 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
-exports.main = (sendResponse) => {
+export function main(context, sendResponse) {
 
 	async function callReqRes() {
 		const getData = await (await fetch('https://reqres.in/api/users?page=2')).json();
